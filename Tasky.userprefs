@@ -11,25 +11,6 @@
       <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="14" Column="28" />
       <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Tasky" expanded="True">
-            <Node name="TaskyUITest" expanded="True">
-              <Node name="TaskyUITest" expanded="True">
-                <Node name="AddTaskTest" expanded="True">
-                  <Node name="AddTaskTest(Android)" expanded="True" />
-                  <Node name="AddTaskTest(iOS)" expanded="True">
-                    <Node name="ClickOnAddNewTaskButton" selected="True" />
-                  </Node>
-                </Node>
-                <Node name="ReplTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
