@@ -1,3 +1,4 @@
+[![Build Status](https://www.bitrise.io/app/ac614d25f21f1e12.svg?token=Yjyz1zs5q_0sp9vznkdnRw&branch=master)](https://www.bitrise.io/app/ac614d25f21f1e12)
 Tasky
 =====
 This app shows how to implement UITest and Unit Tests into a Xamarin.Forms project.
