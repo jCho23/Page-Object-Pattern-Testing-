@@ -17,8 +17,18 @@ namespace TaskyUITest
 		protected BaseTest(Platform platform)
 		{
 			this.platform = platform;
-		}
 
 		}
+
+		[SetUp]
+		virtual public void BeforeEachTest()
+		{
+			app = AppInitializer.StartApp(platform);
+			app.Screenshot("App Initialized");
+
+			this.HomeScreen = new HomeScreen(app, this.platform);
+			this.TaskDetailsPage = new TaskDetailsPage(app, this.platform);
+		}
 	}
+}
 
