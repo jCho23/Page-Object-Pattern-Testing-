@@ -10,9 +10,7 @@ using Android.Content.PM;
 
 namespace TaskyAndroid.Screens 
 {
-	/// <summary>
 	/// Main ListView screen displays a list of tasks, plus an [Add] button
-	/// </summary>
 	[Activity (Label = "Tasky",  
 		Icon="@drawable/icon",
 		MainLauncher = true,
@@ -29,7 +27,7 @@ namespace TaskyAndroid.Screens
 		{
 			base.OnCreate (bundle);
 
-			// set our layout to be the home screen
+			//Set our layout to be the home screen
 			SetContentView(Resource.Layout.HomeScreen);
 
 			//Find our controls

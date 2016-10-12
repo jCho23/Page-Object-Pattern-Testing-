@@ -12,18 +12,7 @@ namespace TaskyUITest
 		{
 			this.platform = platform;
 		}
-
-		//public override void BeforeEachTest()
-		//{
-		//	base.BeforeEachTest();
-
-		//	if (app is Xamarin.UITest.iOS.iOSApp)
-		//	{
-		//		app.Invoke("xtcAgent:", "");
-		//		app.Invoke("clearKeyChain:", "");
-		//	}
-		//}
-
+	
 		//This is the proper way to use AutomationIds in Page Object Pattern for a true Cross-Platform UITest 
 		//Thus, you only see one test for BOTH Android and iOS
 		[Test]

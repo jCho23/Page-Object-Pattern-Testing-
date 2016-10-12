@@ -19,15 +19,6 @@ namespace TaskyUITest
 			this.platform = platform;
 		}
 
-		[SetUp]
-		virtual public void BeforeEachTest()
-		{
-			app = AppInitializer.StartApp(platform);
-			app.Screenshot("App Initialized");
-
-			HomeScreen = new HomeScreen(app, platform);
-			TaskDetailsPage = new TaskDetailsPage(app, platform);
 		}
 	}
-}
 
