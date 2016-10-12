@@ -1,9 +1,7 @@
 [![Build Status](https://www.bitrise.io/app/ac614d25f21f1e12.svg?token=Yjyz1zs5q_0sp9vznkdnRw&branch=master)](https://www.bitrise.io/app/ac614d25f21f1e12)
 Tasky
 =====
-This app shows how to implement UITest and Unit Tests into a Xamarin.Forms project.
-
-I followed the recommended best practices of Page Object Pattern testing using C#.
+I created this test suite to illustrate the recommended best practices of Page Object Pattern using C#.
 
 Tasky is a simple cross-platform todo/task application sample that allows
 you to track todo/task items created by Bryan Costanich and Craig Dunn.
