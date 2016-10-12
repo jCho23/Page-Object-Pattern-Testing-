@@ -6,29 +6,11 @@
       <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="25" Column="5" />
       <File FileName="TaskyiOS/HomeScreen.cs" Line="34" Column="28" />
       <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="58" Column="4" />
-      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="26" Column="42" />
+      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="26" Column="1" />
       <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="19" Column="29" />
       <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="1" />
       <File FileName="TaskyUITest/AppInitializer.cs" Line="9" Column="15" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Tasky" expanded="True">
-            <Node name="TaskyUITest" expanded="True">
-              <Node name="TaskyUITest" expanded="True">
-                <Node name="AddTaskTest" expanded="True">
-                  <Node name="AddTaskTest(Android)" expanded="True">
-                    <Node name="AddNewTaskForAndroid" selected="True" />
-                  </Node>
-                </Node>
-                <Node name="ReplTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
