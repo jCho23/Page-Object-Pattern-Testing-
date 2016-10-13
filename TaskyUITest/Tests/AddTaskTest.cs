@@ -19,14 +19,12 @@ namespace TaskyUITest
 		public void ClickOnAddNewTaskButton()
 		{
 			//Arrange
-			var expectedHomeScreenTitle = "Home Screen";
 
 			//Act
 			HomeScreen.TapAddTaskButtonUsingIds();
 
 			//Assert
 			Assert.IsFalse(HomeScreen.IsHomeScreenLoaded());
-		
 		}
 
 		//This method does not take advantage of UI IDs and thus, you will need to write different tests for each platform
@@ -38,9 +36,7 @@ namespace TaskyUITest
 		{
 			//Arrange
 			string taskName = "Feed Kirby";
-
 			var note = "Kirby runs wild when he is hungry!";
-			var expectedHomeScreenTitle = "Home Screen";
 
 			//Act
 			HomeScreen.TapAddTaskButtonUsingIds();
@@ -63,8 +59,6 @@ namespace TaskyUITest
 
 			//Assert
 			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
-
-
 		}
 
 		//This is the test for iOS
@@ -73,9 +67,7 @@ namespace TaskyUITest
 		{
 			//Arrange
 			string taskName = "Feed Kirby";
-
 			var note = "Kirby runs wild when he is hungry!";
-			var expectedHomeScreenTitle = "Home Screen";
 
 			//Act
 			HomeScreen.TapAddTaskButton();

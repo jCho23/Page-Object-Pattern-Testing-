@@ -26,7 +26,6 @@ namespace TaskyUITest
 			app.ScrollDownTo(AddTaskButtonUsingIds);
 			app.Tap(AddTaskButtonUsingIds);
 			app.Screenshot("Tapped Add Task Button");
-
 		}
 
 		public void TapAddTaskButton()
@@ -35,7 +34,6 @@ namespace TaskyUITest
 			app.ScrollDownTo(AddTaskButton);
 			app.Tap(AddTaskButton);
 			app.Screenshot("Tapped Add Task Button");
-
 		}
 
 		public bool IsHomeScreenLoaded()
