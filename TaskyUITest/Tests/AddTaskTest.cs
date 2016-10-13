@@ -25,12 +25,12 @@ namespace TaskyUITest
 			HomeScreen.TapAddTaskButtonUsingIds();
 
 			//Assert
-			var actualHomeScreenTitle = HomeScreen.GetTitle();
-			Assert.AreEqual(expectedHomeScreenTitle, actualHomeScreenTitle);
+			Assert.IsFalse(HomeScreen.IsHomeScreenLoaded());
+		
 		}
 
 		//This method does not take advantage of UI IDs and thus, you will need to write different tests for each platform
-		//Consequently, we have to write TWO sets of test-- one for Android and the other for iOS
+		//Consequently, we have to write TWO separate sets of test-- one for Android and the other for iOS
 
 		//This is the test for Android
 		[Test]
@@ -62,8 +62,9 @@ namespace TaskyUITest
 			TaskDetailsPage.TapSaveButtonUsingIds();
 
 			//Assert
-			var actualHomeScreenTitle = HomeScreen.GetTitle();
-			Assert.AreEqual(expectedHomeScreenTitle, actualHomeScreenTitle);
+			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
+
+
 		}
 
 		//This is the test for iOS
@@ -96,8 +97,7 @@ namespace TaskyUITest
 			TaskDetailsPage.TapSaveButton();
 
 			//Assert
-			var actualHomeScreenTitle = HomeScreen.GetTitle();
-			Assert.AreEqual(expectedHomeScreenTitle, actualHomeScreenTitle);
+			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 		}
 
 	

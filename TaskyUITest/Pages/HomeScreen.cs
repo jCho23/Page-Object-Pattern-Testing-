@@ -38,19 +38,17 @@ namespace TaskyUITest
 
 		}
 
-		public string GetTitle()
+		public bool IsHomeScreenLoaded()
 		{
-			var title = "Home Page";
-			AppResult[] titleQuery;
+			AppResult[] CheckAddTaskButtonResults;
+			CheckAddTaskButtonResults = app.Query(AddTaskButton);
 
-			app.WaitForElement(title);
+			int numberOfResults = CheckAddTaskButtonResults.Length;
 
-			if (OniOS)
-				titleQuery = app.Query(x => x.Class("UILabel").Marked("Home Page"));
+			if (numberOfResults == 0)
+				return false;
 			else
-				titleQuery = app.Query(x => x.Class("TextView").Marked("Home Page"));
-
-			return titleQuery[0]?.Text;
+				return true;
 		}
 
 	}

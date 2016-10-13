@@ -1,16 +1,35 @@
 ﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyUITest/Pages/TaskDetailsPage.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TaskyUITest/Pages/BasePage.cs" Line="24" Column="1" />
-      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="41" Column="17" />
+      <File FileName="TaskyUITest/Pages/BasePage.cs" Line="10" Column="27" />
+      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="44" Column="7" />
       <File FileName="TaskyiOS/HomeScreen.cs" Line="34" Column="28" />
-      <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="66" Column="15" />
-      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="1" Column="1" />
-      <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="28" Column="4" />
+      <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="23" Column="76" />
+      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="28" Column="51" />
+      <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="19" Column="29" />
       <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="1" />
-      <File FileName="TaskyUITest/AppInitializer.cs" Line="34" Column="10" />
+      <File FileName="TaskyUITest/AppInitializer.cs" Line="9" Column="15" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Tasky" expanded="True">
+            <Node name="TaskyUITest" expanded="True">
+              <Node name="Test Apps" expanded="True" />
+              <Node name="TaskyUITest" expanded="True">
+                <Node name="AddTaskTest" expanded="True">
+                  <Node name="AddTaskTest(Android)" expanded="True">
+                    <Node name="AddNewTaskForAndroid" selected="True" />
+                  </Node>
+                  <Node name="AddTaskTest(iOS)" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
