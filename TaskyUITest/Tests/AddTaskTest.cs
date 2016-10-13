@@ -65,7 +65,7 @@ namespace TaskyUITest
 				Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 			}
 
-			if (platform == Platform.iOS)
+			else if (platform == Platform.iOS)
 			{
 				//Act
 				HomeScreen.TapAddTaskButton();
