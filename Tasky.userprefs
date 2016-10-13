@@ -1,16 +1,37 @@
 ﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyUITest/Pages/HomeScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyUITest/Tests/BaseTest.cs">
     <Files>
       <File FileName="TaskyUITest/Pages/BasePage.cs" Line="10" Column="27" />
       <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="50" Column="4" />
       <File FileName="TaskyiOS/HomeScreen.cs" Line="34" Column="28" />
-      <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="23" Column="76" />
-      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="50" Column="47" />
+      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="41" Column="1" />
+      <File FileName="TaskyUITest/AppInitializer.cs" Line="27" Column="14" />
       <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="19" Column="29" />
       <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="1" />
-      <File FileName="TaskyUITest/AppInitializer.cs" Line="9" Column="15" />
+      <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="31" Column="33" NotebookId="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Tasky" expanded="True">
+            <Node name="TaskyUITest" expanded="True">
+              <Node name="TaskyUITest" expanded="True">
+                <Node name="AddTaskTest" expanded="True">
+                  <Node name="AddTaskTest(Android)" expanded="True">
+                    <Node name="TapAddTaskButtonUsingIds" selected="True" />
+                  </Node>
+                  <Node name="AddTaskTest(iOS)" expanded="True" />
+                </Node>
+                <Node name="ReplTest" expanded="True">
+                  <Node name="ReplTest(Android)" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -12,7 +12,7 @@ namespace TaskyUITest
 		{
 			this.platform = platform;
 		}
-	
+
 		//This is the proper way to use AutomationIds in Page Object Pattern for a true Cross-Platform UITest 
 		//Thus, you only see one test for BOTH Android and iOS
 		[Test]
@@ -61,7 +61,7 @@ namespace TaskyUITest
 			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 		}
 
-		//This is the test for iOS
+		//This is the separate test for iOS
 		[Test]
 		public void AddNewTaskForiOS()
 		{
@@ -92,6 +92,5 @@ namespace TaskyUITest
 			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 		}
 
-	
 	}
 }
