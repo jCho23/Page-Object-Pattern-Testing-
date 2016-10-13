@@ -8,6 +8,7 @@ namespace TaskyUITest
 {
 	public class TaskDetailsPage : BasePage
 	{
+		#region Properties and Fields
 		readonly Query AddNameFieldUsingIds;
 		readonly Query AddNotesFieldUsingIds;
 		readonly Query ClickCheckBoxUsingIds;
@@ -19,7 +20,9 @@ namespace TaskyUITest
 		readonly Query ClickCheckBox;
 		readonly Query SaveButton;
 		readonly Query CancelButton;
+		#endregion
 
+		#region Constructors
 		public TaskDetailsPage(IApp app, Platform platform) : base(app, platform)
 		{
 			//Always initialize your UITest queries using "x.Marked" and referencing the UI ID
@@ -44,7 +47,9 @@ namespace TaskyUITest
 				CancelButton = x => x.Text("Delete");
 			}
 		}
+		#endregion
 
+		#region Methods
 		//Name Field
 		public void TapAddNameFieldUsingIds()
 		{
@@ -117,6 +122,6 @@ namespace TaskyUITest
 			app.Tap(CancelButton);
 			app.Screenshot("Tapped on Save Button");
 		}
-
+		#endregion
 	}
 }
