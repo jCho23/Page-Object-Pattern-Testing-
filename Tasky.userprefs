@@ -3,8 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TaskyUITest/Pages/HomeScreen.cs">
     <Files>
       <File FileName="TaskyUITest/Pages/BasePage.cs" Line="19" Column="37" />
-      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="38" Column="3" />
-      <File FileName="TaskyiOS/HomeScreen.cs" Line="34" Column="41" />
+      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="58" Column="1" />
       <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="71" Column="25" />
       <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="29" Column="57" />
       <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="81" Column="4" />
