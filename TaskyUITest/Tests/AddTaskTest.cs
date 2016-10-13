@@ -16,7 +16,7 @@ namespace TaskyUITest
 		//This is the proper way to use AutomationIds in Page Object Pattern for a true Cross-Platform UITest 
 		//Thus, you only see one test for BOTH Android and iOS
 		[Test]
-		public void ClickOnAddNewTaskButton()
+		public void TapAddTaskButtonUsingIds()
 		{
 			//Arrange
 
@@ -24,7 +24,7 @@ namespace TaskyUITest
 			HomeScreen.TapAddTaskButtonUsingIds();
 
 			//Assert
-			Assert.IsFalse(HomeScreen.IsHomeScreenLoaded());
+			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 		}
 
 		//This method does not take advantage of UI IDs and thus, you will need to write different tests for each platform
