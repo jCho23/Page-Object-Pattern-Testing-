@@ -3,6 +3,7 @@ using Xamarin.UITest;
 using TaskyUITest;
 
 using Query = System.Func<Xamarin.UITest.Queries.AppQuery, Xamarin.UITest.Queries.AppQuery>;
+using System.Runtime.Hosting;
 
 namespace TaskyUITest
 {

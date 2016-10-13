@@ -20,22 +20,25 @@ namespace TaskyUITest
 				AddTaskButton = x => x.Class("Button").Index(0);
 		}
 
+		#region Methods on HomeScreen
 		public void TapAddTaskButtonUsingIds()
 		{
-			app.DismissKeyboard();
-			app.ScrollDownTo(AddTaskButtonUsingIds);
+			//app.DismissKeyboard();
+			//app.ScrollDownTo(AddTaskButtonUsingIds);
 			app.Tap(AddTaskButtonUsingIds);
 			app.Screenshot("Tapped Add Task Button");
 		}
 
 		public void TapAddTaskButton()
 		{
-			app.DismissKeyboard();
-			app.ScrollDownTo(AddTaskButton);
+			//app.DismissKeyboard();
+			//app.ScrollDownTo(AddTaskButton);
 			app.Tap(AddTaskButton);
 			app.Screenshot("Tapped Add Task Button");
 		}
+		#endregion
 
+		#region Assertion
 		public bool IsHomeScreenLoaded()
 		{
 			AppResult[] CheckAddTaskButtonResults;
@@ -47,6 +50,7 @@ namespace TaskyUITest
 				return false;
 			else
 				return true;
+			#endregion
 		}
 
 	}
