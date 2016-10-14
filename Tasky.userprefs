@@ -1,30 +1,32 @@
 ﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyUITest/Tests/AddTaskTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyiOS/HomeScreen.cs">
     <Files>
       <File FileName="TaskyUITest/Pages/BasePage.cs" Line="19" Column="37" />
-      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="58" Column="1" />
-      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="30" Column="3" />
+      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="23" Column="32" />
+      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="71" Column="23" />
       <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="29" Column="57" />
       <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="81" Column="4" />
       <File FileName="TaskyiOS/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="TaskyiOS/EditingSource.cs" Line="1" Column="1" />
-      <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="1" />
+      <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="9" />
+      <File FileName="TaskyiOS/Info.plist" />
+      <File FileName="TaskyiOS/HomeScreen.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Tasky" expanded="True">
             <Node name="TaskyUITest" expanded="True">
+              <Node name="Test Apps" expanded="True" />
               <Node name="TaskyUITest" expanded="True">
                 <Node name="AddTaskTest" expanded="True">
-                  <Node name="AddTaskTest(Android)" expanded="True" />
-                  <Node name="AddTaskTest(iOS)" expanded="True">
-                    <Node name="AddNewTaskForAndroidandiOS" selected="True" />
-                  </Node>
+                  <Node name="AddTaskTest(iOS)" expanded="True" />
                 </Node>
                 <Node name="ReplTest" expanded="True">
-                  <Node name="ReplTest(Android)" expanded="True" />
+                  <Node name="ReplTest(iOS)" expanded="True">
+                    <Node name="Repl" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -35,7 +37,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/junecho/Downloads/Tasky/TaskyUITest/Pages/HomeScreen.cs" line="49" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TaskyiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.815D08CA-073D-484A-B6B9-BEB3E3EBDAEB" />

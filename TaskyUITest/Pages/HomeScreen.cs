@@ -15,7 +15,7 @@ namespace TaskyUITest
 			AddTaskButtonUsingIds = x => x.Marked("AddButton");
 
 			if (platform == Platform.iOS)
-				AddTaskButton = x => x.Class("UIBarButtonItem").Index(0);
+				AddTaskButton = x => x.Class("UINavigationButton").Index(0);
 			else
 				AddTaskButton = x => x.Class("Button").Index(0);
 		}

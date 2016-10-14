@@ -25,7 +25,7 @@ namespace TaskyUITest
 			HomeScreen.TapAddTaskButtonUsingIds();
 
 			//Assert
-			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
+			Assert.IsFalse(HomeScreen.IsHomeScreenLoaded());
 		}
 
 
