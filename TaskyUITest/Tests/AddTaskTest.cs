@@ -28,10 +28,10 @@ namespace TaskyUITest
 			Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 		}
 
+
+		#region The Unorthodox method of Page Object Pattern
 		//This method does not take advantage of UI IDs and thus, you will need to write different tests for each platform
 		//Consequently, we have to write TWO separate sets of test-- one for Android and the other for iOS
-
-		//This is the test for Android and iOS
 		[Test]
 		public void AddNewTaskForAndroidandiOS()
 		{
@@ -89,7 +89,7 @@ namespace TaskyUITest
 				//Assert
 				Assert.IsTrue(HomeScreen.IsHomeScreenLoaded());
 			}
-
+			#endregion
 		}
 	}
 }
