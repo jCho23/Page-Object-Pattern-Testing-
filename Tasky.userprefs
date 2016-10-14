@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{08FAE550-E302-4022-A871-17E0462E99F3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskySharedCode/HockeyAppConstants.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid/HomeScreen.cs">
     <Files>
-      <File FileName="TaskyAndroid/HomeScreen.cs" Line="35" Column="4" />
-      <File FileName="TaskyiOS/HomeScreen.cs" Line="49" Column="41" />
+      <File FileName="TaskyAndroid/HomeScreen.cs" Line="33" Column="19" />
+      <File FileName="TaskyiOS/HomeScreen.cs" Line="50" Column="48" />
       <File FileName="TaskySharedCode/TodoItem.cs" Line="1" Column="1" />
       <File FileName="TaskySharedCode/TodoItemManager.cs" Line="25" Column="24" />
       <File FileName="TaskySharedCode/TodoItemRepositoryADO.cs" Line="28" Column="4" />
       <File FileName="TaskySharedCode/TodoDatabaseADO.cs" Line="1" Column="1" />
       <File FileName="TaskyiOS/EditingSource.cs" Line="12" Column="71" />
       <File FileName="TaskyiOS/TodoItemDialog.cs" Line="34" Column="20" />
-      <File FileName="TaskyiOS/AppDelegate.cs" Line="47" Column="65" />
-      <File FileName="TaskySharedCode/HockeyAppConstants.cs" Line="13" Column="40" />
+      <File FileName="TaskyiOS/AppDelegate.cs" Line="19" Column="1" />
+      <File FileName="TaskySharedCode/HockeyAppConstants.cs" Line="13" Column="65" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
