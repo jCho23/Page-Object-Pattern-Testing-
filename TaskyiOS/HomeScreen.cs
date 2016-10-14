@@ -29,12 +29,26 @@ namespace Tasky.Screens {
 		
 		protected void Initialize()
 		{
-			var barButton = new UIBarButtonItem(UIBarButtonSystemItem.Add)
+			var addButton = new UIBarButtonItem(UIBarButtonSystemItem.Add)
 			{
 				AccessibilityIdentifier = "AddButton"
 			};
-			NavigationItem.SetRightBarButtonItem (barButton, false);
-			NavigationItem.RightBarButtonItem.Clicked += (sender, e) => { ShowTaskDetails(new TodoItem()); };
+			NavigationItem.SetRightBarButtonItem (addButton, false);
+			NavigationItem.RightBarButtonItem.Clicked += (sender, e) => { 
+				HockeyApp.MetricsManager.TrackEvent(HockeyAppConstants.AddButtonTapped);
+				ShowTaskDetails(new TodoItem()); 
+			};
+
+			var crashButton = new UIBarButtonItem(UIBarButtonSystemItem.Stop)
+			{
+				AccessibilityIdentifier = "CrashButton"
+			};
+			NavigationItem.SetLeftBarButtonItem(crashButton,false);
+			NavigationItem.LeftBarButtonItem.Clicked += (sender, e) =>
+			{
+				HockeyApp.MetricsManager.TrackEvent(HockeyAppConstants.CrashButtonTapped);
+				throw new Exception("Crash Button Tapped");
+			};
 		}
 		
 		protected void ShowTaskDetails(TodoItem item)
@@ -47,6 +61,8 @@ namespace Tasky.Screens {
 		}
 		public void SaveTask()
 		{
+			HockeyApp.MetricsManager.TrackEvent(HockeyAppConstants.SaveButtonTapped);
+
 			context.Fetch (); // re-populates with updated values
 			currentItem.Name = taskDialog.Name;
 			currentItem.Notes = taskDialog.Notes;
@@ -57,6 +73,8 @@ namespace Tasky.Screens {
 		}
 		public void DeleteTask ()
 		{
+			HockeyApp.MetricsManager.TrackEvent(HockeyAppConstants.DeleteButtonTapped);
+
 			if (currentItem.ID >= 0)
 				TodoItemManager.DeleteTask (currentItem.ID);
 			NavigationController.PopViewController (true);

@@ -4,6 +4,8 @@ using System.Linq;
 using Foundation;
 using UIKit;
 using Xamarin;
+using HockeyApp.iOS;
+using Tasky.Shared;
 
 namespace Tasky
 {
@@ -36,6 +38,14 @@ namespace Tasky
 
 			// make the window visible
 			window.MakeKeyAndVisible();
+
+			var hockeyappManager = BITHockeyManager.SharedHockeyManager;
+			hockeyappManager.Configure(HockeyAppConstants.iOSHockeyAppID);
+			hockeyappManager.LogLevel = BITLogLevel.Debug;
+			hockeyappManager.StartManager();
+			hockeyappManager.Authenticator.AuthenticateInstallation();
+			hockeyappManager.UpdateManager.CheckForUpdateOnLaunch = true;
+
 
 			// create our nav controller
 			navController = new UINavigationController();
