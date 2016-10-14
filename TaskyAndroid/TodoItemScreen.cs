@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Widget;
 using Tasky.Shared;
 using TaskyAndroid;
+using HockeyApp;
 
 namespace TaskyAndroid.Screens 
 {
@@ -59,13 +60,14 @@ namespace TaskyAndroid.Screens
 			task.Notes = notesTextEdit.Text;
 			//TODO: 
 			task.Done = doneCheckbox.Checked;
-
+			MetricsManager.TrackEvent(HockeyAppConstants.SaveButtonTapped);
 			TodoItemManager.SaveTask(task);
 			Finish();
 		}
 		
 		void CancelDelete()
 		{
+			MetricsManager.TrackEvent(HockeyAppConstants.DeleteButtonTapped);
 			if (task.ID != 0) {
 				TodoItemManager.DeleteTask(task.ID);
 			}

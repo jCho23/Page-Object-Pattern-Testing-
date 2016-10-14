@@ -46,6 +46,6 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>CFBundleIdentifier</key>
-	<string>com.cho.Tasky</string>
+	<string>com.xamarin.samples.taskyios</string>
 </dict>
 </plist>

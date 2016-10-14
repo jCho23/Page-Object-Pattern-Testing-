@@ -7,6 +7,8 @@ using Tasky.Shared;
 using TaskyAndroid;
 using TaskyAndroid.ApplicationLayer;
 using Android.Content.PM;
+using HockeyApp.Android;
+using HockeyApp.Android.Metrics;
 
 namespace TaskyAndroid.Screens 
 {
@@ -27,6 +29,11 @@ namespace TaskyAndroid.Screens
 		{
 			base.OnCreate (bundle);
 
+			CrashManager.Register(this, HockeyAppConstants.DroidHockeyAppID);
+			UpdateManager.Register(this, HockeyAppConstants.DroidHockeyAppID, true);
+			FeedbackManager.Register(this, HockeyAppConstants.DroidHockeyAppID, null);
+			MetricsManager.Register(this, Application, HockeyAppConstants.DroidHockeyAppID);
+
 			//Set our layout to be the home screen
 			SetContentView(Resource.Layout.HomeScreen);
 
@@ -37,6 +44,7 @@ namespace TaskyAndroid.Screens
 			// wire up add task button handler
 			if(addTaskButton != null) {
 				addTaskButton.Click += (sender, e) => {
+					MetricsManager.TrackEvent(HockeyAppConstants.AddButtonTapped);
 					StartActivity(typeof(TodoItemScreen));
 				};
 			}
@@ -55,6 +63,8 @@ namespace TaskyAndroid.Screens
 		{
 			base.OnResume ();
 
+			Tracking.StartUsage(this);
+
 			tasks = TodoItemManager.GetTasks();
 			
 			// create our adapter
@@ -62,6 +72,13 @@ namespace TaskyAndroid.Screens
 
 			//Hook up our adapter to our ListView
 			taskListView.Adapter = taskList;
+		}
+
+		protected override void OnPause()
+		{
+			base.OnPause();
+
+			Tracking.StopUsage(this);
 		}
 	}
 }
