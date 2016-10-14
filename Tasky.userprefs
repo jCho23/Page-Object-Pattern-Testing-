@@ -1,22 +1,32 @@
 ﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyiOS/EditingSource.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid/HomeScreen.cs">
     <Files>
-      <File FileName="TaskyUITest/Pages/BasePage.cs" Line="19" Column="37" />
-      <File FileName="TaskyUITest/Pages/HomeScreen.cs" Line="23" Column="32" />
-      <File FileName="TaskyUITest/Tests/AddTaskTest.cs" Line="71" Column="23" />
-      <File FileName="TaskyUITest/Tests/BaseTest.cs" Line="29" Column="57" />
-      <File FileName="TaskyUITest/Pages/TaskDetailsPage.cs" Line="81" Column="4" />
-      <File FileName="TaskyiOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="TaskyiOS/EditingSource.cs" Line="1" Column="1" />
-      <File FileName="TaskyUITest/Tests/ReplTest.cs" Line="14" Column="9" />
-      <File FileName="TaskyiOS/Info.plist" />
+      <File FileName="TaskyAndroid/HomeScreen.cs" Line="35" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Tasky" expanded="True">
+            <Node name="TaskyUITest" expanded="True">
+              <Node name="Test Apps" expanded="True" />
+              <Node name="TaskyUITest" expanded="True">
+                <Node name="AddTaskTest" expanded="True" />
+                <Node name="ReplTest" expanded="True">
+                  <Node name="ReplTest(iOS)" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/junecho/Downloads/Tasky/TaskyUITest/Pages/HomeScreen.cs" line="49" column="1" />
+      <Breakpoint file="/Users/junecho/Downloads/Tasky/TaskyAndroid/HomeScreen.cs" line="35" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

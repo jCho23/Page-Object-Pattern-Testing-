@@ -13,5 +13,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)TodoItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TodoItemManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TodoItemRepositoryADO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HockeyAppConstants.cs" />
   </ItemGroup>
 </Project>
