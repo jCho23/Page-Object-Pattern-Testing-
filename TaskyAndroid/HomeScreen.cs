@@ -32,7 +32,7 @@ namespace TaskyAndroid.Screens
 			CrashManager.Register(this, HockeyAppConstants.DroidHockeyAppID);
 			UpdateManager.Register(this, HockeyAppConstants.DroidHockeyAppID, true);
 			FeedbackManager.Register(this, HockeyAppConstants.DroidHockeyAppID, null);
-			//MetricsManager.Register(this, Application, HockeyAppConstants.DroidHockeyAppID);
+			MetricsManager.Register(this, Application, HockeyAppConstants.DroidHockeyAppID);
 
 			//Set our layout to be the home screen
 			SetContentView(Resource.Layout.HomeScreen);

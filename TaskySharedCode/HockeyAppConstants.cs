@@ -10,8 +10,9 @@ namespace Tasky.Shared
 
 		#region EventManagerConstants
 		public const string AddButtonTapped = "Add Button Tapped";
-		public const string SaveButtonTapped = "Save Button Tapped";
+		public const string CrashButtonTapped = "Crash Button Tapped";
 		public const string DeleteButtonTapped = "Delete Button Tapped";
+		public const string SaveButtonTapped = "Save Button Tapped";
 		#endregion
 	}
 }

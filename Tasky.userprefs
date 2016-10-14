@@ -1,21 +1,24 @@
-﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{08FAE550-E302-4022-A871-17E0462E99F3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid/HomeScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskySharedCode/HockeyAppConstants.cs">
     <Files>
-      <File FileName="TaskyAndroid/HomeScreen.cs" Line="35" Column="1" />
+      <File FileName="TaskyAndroid/HomeScreen.cs" Line="35" Column="4" />
+      <File FileName="TaskyiOS/HomeScreen.cs" Line="49" Column="41" />
+      <File FileName="TaskySharedCode/TodoItem.cs" Line="1" Column="1" />
+      <File FileName="TaskySharedCode/TodoItemManager.cs" Line="25" Column="24" />
+      <File FileName="TaskySharedCode/TodoItemRepositoryADO.cs" Line="28" Column="4" />
+      <File FileName="TaskySharedCode/TodoDatabaseADO.cs" Line="1" Column="1" />
+      <File FileName="TaskyiOS/EditingSource.cs" Line="12" Column="71" />
+      <File FileName="TaskyiOS/TodoItemDialog.cs" Line="34" Column="20" />
+      <File FileName="TaskyiOS/AppDelegate.cs" Line="47" Column="65" />
+      <File FileName="TaskySharedCode/HockeyAppConstants.cs" Line="13" Column="40" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Tasky" expanded="True">
+          <Node name="Tasky" expanded="True" selected="True">
             <Node name="TaskyUITest" expanded="True">
               <Node name="Test Apps" expanded="True" />
-              <Node name="TaskyUITest" expanded="True">
-                <Node name="AddTaskTest" expanded="True" />
-                <Node name="ReplTest" expanded="True">
-                  <Node name="ReplTest(iOS)" selected="True" />
-                </Node>
-              </Node>
             </Node>
           </Node>
         </State>
@@ -24,10 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/junecho/Downloads/Tasky/TaskyUITest/Pages/HomeScreen.cs" line="49" column="1" />
-      <Breakpoint file="/Users/junecho/Downloads/Tasky/TaskyAndroid/HomeScreen.cs" line="35" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TaskyiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.815D08CA-073D-484A-B6B9-BEB3E3EBDAEB" />
