@@ -17,10 +17,8 @@ namespace Tasky.Shared
 
 		protected TodoItemRepositoryADO ()
 		{
-			// set the db location
 			dbLocation = DatabaseFilePath;
 
-			// instantiate the database	
 			db = new TodoDatabase(dbLocation);
 		}
 
@@ -38,8 +36,8 @@ namespace Tasky.Shared
 				#if __ANDROID__
 				#else
 			
-				string documentsPath = Environment.GetFolderPath (Environment.SpecialFolder.Personal); // Documents folder
-				string libraryPath = Path.Combine (documentsPath, "..", "Library"); // Library folder
+				string documentsPath = Environment.GetFolderPath (Environment.SpecialFolder.Personal); 
+				string libraryPath = Path.Combine (documentsPath, "..", "Library"); 
 				#endif
 				var path = Path.Combine (libraryPath, sqliteFilename);
 				#endif
