@@ -30,7 +30,6 @@ namespace Tasky.Shared
 			{ 
 				var sqliteFilename = "TaskDatabase.db3";
 				#if NETFX_CORE
-				var path = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, sqliteFilename);
 				#else
 
 				#if SILVERLIGHT

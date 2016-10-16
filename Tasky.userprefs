@@ -1,6 +1,11 @@
 ﻿<Properties StartupConfiguration="{08FAE550-E302-4022-A871-17E0462E99F3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskySharedCode/TodoItemRepositoryADO.cs">
+    <Files>
+      <File FileName="TaskySharedCode/TodoItemManager.cs" Line="1" Column="1" />
+      <File FileName="TaskySharedCode/TodoItemRepositoryADO.cs" Line="33" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
