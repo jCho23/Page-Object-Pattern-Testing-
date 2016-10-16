@@ -30,10 +30,8 @@ namespace Tasky
 #if DEBUG
 			Calabash.Start();
 #endif
-			// create a new window instance based on the screen size
 			window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-			// make the window visible
 			window.MakeKeyAndVisible();
 
 			var hockeyappManager = BITHockeyManager.SharedHockeyManager;
