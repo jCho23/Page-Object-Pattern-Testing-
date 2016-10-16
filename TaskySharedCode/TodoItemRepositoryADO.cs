@@ -33,8 +33,6 @@ namespace Tasky.Shared
 				#else
 
 				#if SILVERLIGHT
-				// Windows Phone expects a local path, not absolute
-				var path = sqliteFilename;
 				#else
 
 				#if __ANDROID__
