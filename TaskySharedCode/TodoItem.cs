@@ -2,9 +2,6 @@ using System;
 
 namespace Tasky.Shared 
 {
-	/// <summary>
-	/// Todo Item business object
-	/// </summary>
 	public class TodoItem 
 	{
 		public TodoItem ()
