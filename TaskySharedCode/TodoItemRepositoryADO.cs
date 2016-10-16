@@ -35,9 +35,11 @@ namespace Tasky.Shared
 
 				#if __ANDROID__
 				string libraryPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); ;
+
 				#else
 				string documentsPath = Environment.GetFolderPath (Environment.SpecialFolder.Personal);
 				string libraryPath = Path.Combine (documentsPath, "..", "Library"); 
+
 				#endif
 				var path = Path.Combine (libraryPath, sqliteFilename);
 

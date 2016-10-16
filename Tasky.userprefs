@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{08FAE550-E302-4022-A871-17E0462E99F3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid PreferredExecutionTarget="Android.Nexus_5X_API_23" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TaskySharedCode/TodoItemRepositoryADO.cs">
     <Files>
