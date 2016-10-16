@@ -8,9 +8,6 @@ using System.Data;
 
 namespace Tasky.Shared
 {
-	/// <summary>
-	/// TaskDatabase uses ADO.NET to create the [Items] table and create,read,update,delete data
-	/// </summary>
 	public class TodoDatabase 
 	{
 		static object locker = new object ();
@@ -19,14 +16,9 @@ namespace Tasky.Shared
 
 		public string path;
 
-		/// <summary>
-		/// Initializes a new instance of the <see cref="Tasky.DL.TaskDatabase"/> TaskDatabase. 
-		/// if the database doesn't exist, it will create the database and all the tables.
-		/// </summary>
 		public TodoDatabase (string dbPath) 
 		{
 			path = dbPath;
-			// create the tables
 			bool exists = File.Exists (dbPath);
 
 			if (!exists) {
@@ -43,11 +35,9 @@ namespace Tasky.Shared
 					}
 				}
 			} else {
-				// already exists, do nothing. 
 			}
 		}
 
-		/// <summary>Convert from DataReader to Task object</summary>
 		TodoItem FromReader (SqliteDataReader r) {
 			var t = new TodoItem ();
 			t.ID = Convert.ToInt32 (r ["_id"]);
