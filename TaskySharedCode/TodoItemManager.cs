@@ -3,9 +3,6 @@ using System.Collections.Generic;
 
 namespace Tasky.Shared 
 {
-	/// <summary>
-	/// Manager classes are an abstraction on the data access layers
-	/// </summary>
 	public static class TodoItemManager 
 	{
 		static TodoItemManager ()
