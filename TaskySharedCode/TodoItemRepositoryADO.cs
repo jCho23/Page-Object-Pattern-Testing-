@@ -30,6 +30,8 @@ namespace Tasky.Shared
 				#if NETFX_CORE
 				#else
 
+				//test
+
 				#if SILVERLIGHT
 				#else
 
