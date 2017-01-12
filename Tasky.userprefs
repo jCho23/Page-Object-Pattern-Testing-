@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TaskySharedCode/TodoItemRepositoryADO.cs">
     <Files>
       <File FileName="TaskySharedCode/TodoItemManager.cs" Line="8" Column="28" />
-      <File FileName="TaskySharedCode/TodoItemRepositoryADO.cs" Line="31" Column="10" />
+      <File FileName="TaskySharedCode/TodoItemRepositoryADO.cs" Line="16" Column="4" />
       <File FileName="TaskySharedCode/TodoItem.cs" Line="4" Column="2" />
       <File FileName="TaskySharedCode/TodoDatabaseADO.cs" Line="41" Column="1" />
       <File FileName="TaskySharedCode/HockeyAppConstants.cs" Line="1" Column="1" />
